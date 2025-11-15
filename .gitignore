@@ -1,3 +1,42 @@
+# Python
 venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 資料檔案
+data/raw/*.csv
+data/processed/*.csv
+
+# 報告檔案
+*.json
+!ai/prompts/*.json
+report_*.txt
+report_*.html
+signals_*.json
+optimization_*.json
+
+# 環境變數
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
